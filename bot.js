@@ -64,7 +64,7 @@ client.on('message', async msg => { // eslint-disable-line
 
 	command = command.slice(PREFIX.length)
 
-	if (command === `play`) {
+	if (command === `p`) {
     
 		const voiceChannel = msg.member.voiceChannel;
         
